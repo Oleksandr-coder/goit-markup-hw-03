@@ -1,0 +1,505 @@
+.body {
+  color: #e5e5e5;
+}
+
+/*цвет основного текста #212121 */
+/*вторичный цвет текста #757575 */
+/*акцент #2196F3 */
+/*белый #fffff */
+
+/* top line header */
+
+/* WebStudio */
+
+.logo-blue {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 30.52px;
+  color: #2196f3;
+}
+.logo-black {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 30.52px;
+  color: #000;
+}
+
+/* Студия */
+/* Портфолио */
+/* Контакты */
+
+a:hover,
+
+active{ color: #2196F3;}
+  
+
+ul {
+    list-style-type: none;
+}
+
+.navigation-list-item {
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  flex: 3;
+}
+.navigation-list-item-studio {
+   cursor: pointer;
+  display: inline;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #212121;
+}
+.navigation-list-link-studio {
+  text-decoration: none;
+}
+.navigation-list-link {
+  color: #212121;
+  text-decoration: none;
+}
+.address {
+  display: inline;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+a {
+  color: inherit;
+  text-decoration: none; 
+  /* no underline */
+}
+/* info@devstudio.com */
+
+.header-mail {
+  color:  #212121;
+}
+/* +38 096 111 11 11 */
+.phone {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+/* HERO */
+
+/* Эффективные решения для вашего бизнеса */
+
+
+.hero-section {
+  background: #2f303a;
+}
+
+.hero-section h1 {
+  font-family: Roboto;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: white;
+}
+/* Заказать услугу */
+.hero-section button {
+  background: #2196f3;
+  border: none;
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: white;
+  display: block;
+}
+
+/* Внимание к деталям */
+/* Пунктуальность */
+/* Планирование */
+/* Современные технологии */
+.title-3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+/* Идейные соображения, а также начало повседневной работы по формированию позиции. */
+/* Задача организации, в особенности же рамки и место обучения кадров влечет за собой. */
+/* Равным образом консультация с широким активом в значительной степени обуславливает. */
+/* Значимость этих проблем настолько очевидна, что реализация плановых заданий. */
+.text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/* ABOUT */
+
+/* Чем мы занимаемся */
+.title-2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+/* OUR DEVELOPERS */
+
+/* Наша команда */
+.title-2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+/* Игорь Демьяненко */
+/* Ольга Репина */
+/* Николай Тарасов */
+/* Михаил Ермаков */
+
+.title-developer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+/* Product Designer */
+/* Frontend Developer */
+/* Marketing */
+/* UI Designer */
+
+.title-developer-skills {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/* CONTACT INFORMATION */
+/* Footer bg */
+.footer-bg {
+  background: #2f303a;
+}
+/* WebStudio */
+
+.logo-blue {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 30.52px;
+  color: #2196f3;
+}
+.logo-white {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 30.52px;
+  color: white;
+}
+/* г. Киев, пр-т Леси Украинки, 26 */
+
+.maps-adress {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+/* info@example.com */
+.footer-mail {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* +38 099 111 11 11 */
+.footer-phone {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* PORTFOLIO CSS */
+
+/* top line header portfolio*/
+
+/* WebStudio */
+
+.logo-blue {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 30.52px;
+  color: #2196f3;
+}
+.logo-black {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 30.52px;
+  color: #000;
+}
+
+/* Студия */
+.navigation-list-link-studio {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+/* Портфолио */
+.navigation-list-link-portfolio {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color:  #212121;
+}
+/* Контакты */
+.navigation-list-link-contacts {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.email {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+/* +38 096 111 11 11 */
+.phone-number {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+/* Портфолио */
+
+h1.hidden {
+  visibility: hidden;
+}
+
+/* Все */
+/* Веб-сайты */
+/* Приложения */
+/* Дизайн */
+/* Маркетинг */
+
+.btn {
+  cursor: pointer;
+  background: #f5f4fa;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.btn:hover,
+active{ background-color: #2196F3;}
+
+/* WEB-LINKS */
+.name-of-weblink {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.weblink {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/* CONTACT INFORMATION PORTFOLIO*/
+/* Footer bg */
+.footer-portfolio {
+  background: #2f303a;
+}
+/* WebStudio */
+
+.logo-blue {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 30.52px;
+  color: #2196f3;
+}
+.logo-white {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 30.52px;
+  color: white;
+}
+/* г. Киев, пр-т Леси Украинки, 26 */
+
+.footer-adress-location {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+/* info@example.com */
+.footer-adress-contact {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* +38 099 111 11 11 */
+.footer-adress-contact {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
