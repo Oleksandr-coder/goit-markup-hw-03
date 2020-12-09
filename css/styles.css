@@ -44,14 +44,28 @@ img{
 
 /* top line header */
 
-.header
 
+
+.header {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0 24px;
+}
+.navigation{
+  display: flex;
+  align-items: center;
+  
+}
   
  
 /* WebStudio */
 
 .navigation-link{
   display: flex;
+  margin-left:215px ;
 }
 
 .logo-blue {
@@ -81,12 +95,12 @@ active{ color: #2196F3;}
   
 /* top line bg */
 
-.navigation-list{
-  display: flex;
-  text-align: center;
-
-
+.navigation-list {
+    display: flex;
+    text-align: center;
+    margin-left: 120px;
 }
+
 .navigation-list-link{
   display: block;
   padding-top: 32px;
@@ -155,6 +169,7 @@ active{ color: #2196F3;}
 
 .phone{
   margin-left: 50px ;
+  margin-right: 215px;
   padding-top: 32px;
   padding-bottom: 32px;
   background-color: none;
@@ -189,10 +204,26 @@ a {
 
 
 .hero-section {
+    
+   flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    padding: 25px 0 24px;
+
+
   background: #2f303a;
 }
 
 .hero-section h1 {
+    
+  
+    height:120px ;
+    width:696px ;
+
   font-family: Roboto;
   font-size: 44px;
   font-style: normal;
@@ -204,6 +235,10 @@ a {
 }
 /* Заказать услугу */
 .hero-section button {
+  padding-block: ;
+
+
+
   background: #2196f3;
   border: none;
   border-radius: 4px;
@@ -222,7 +257,26 @@ a {
 /* Пунктуальность */
 /* Планирование */
 /* Современные технологии */
-.title-3 {
+
+.container-slogans{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0 24px;
+}
+
+.slogans-with-text{
+display: flex;
+}
+
+.slogan-items{
+ 
+  padding: 10px;
+  margin-top: -10px;
+  flex-basis:  calc(100%/4);
+
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -233,57 +287,135 @@ a {
 
   color: #212121;
 }
+
+
+
+}
 /* Идейные соображения, а также начало повседневной работы по формированию позиции. */
 /* Задача организации, в особенности же рамки и место обучения кадров влечет за собой. */
 /* Равным образом консультация с широким активом в значительной степени обуславливает. */
 /* Значимость этих проблем настолько очевидна, что реализация плановых заданий. */
+
+
 .text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
+  padding-top: inherit;
+position: inherit;
+width: 270px;
+height: 75px;
+left: 815px;
+top: 800px;
 
-  letter-spacing: 0.03em;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
 
-  color: #757575;
+letter-spacing: 0.03em;
+
+color: #757575;
 }
 
 /* ABOUT */
 
 /* Чем мы занимаемся */
-.title-2 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
 
-  color: #212121;
+.container-work{
+  flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    padding: 25px 0 24px;
+
+
+}
+.title-2 {
+position: absolute;
+width: 270px;
+height: 16px;
+left: 515px;
+top: 774px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+
+}
+
+.work{
+  display: flex;
+  flex-basis:  calc(100%/4);
+  margin-left: 40px;
+}
+
+.work-items{
+  margin-top: 50px;
+  margin-left: 30px
 }
 
 /* OUR DEVELOPERS */
 
 /* Наша команда */
-.title-2 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
 
-  color: #212121;
+
+
+.container-developers{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    padding: 25px 0 24px;
+
+
+}
+
+.team{
+  display: flex;
+  flex-basis:  calc(100%/4);
+  margin-left: 40px;
+}
+
+.developer-items{
+  margin-top: 50px;
+  margin-left: 30px
+}
+
+.title-4 {
+position: absolute;
+width: 270px;
+height: 16px;
+left: 515px;
+top: 774px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+
 }
 
 /* Игорь Демьяненко */
 /* Ольга Репина */
 /* Николай Тарасов */
-/* Михаил Ермаков */
+"/* Михаил Ермаков */
 
 .title-developer {
   font-family: Roboto;
@@ -320,9 +452,17 @@ a {
 /* CONTACT INFORMATION */
 /* Footer bg */
 .footer-bg {
+   width: 1200px;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0 24px;
+
   background: #2f303a;
 }
 /* WebStudio */
+
 
 .logo-blue {
   font-family: "Raleway", sans-serif;
@@ -386,6 +526,14 @@ a {
 /* PORTFOLIO CSS */
 
 /* top line header portfolio*/
+
+.header-portolio {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0 24px;
 
 /* WebStudio */
 
